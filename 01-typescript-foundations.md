@@ -33,7 +33,7 @@ Use annotations at meaningful boundaries, such as public function parameters, ex
 
 ```ts
 const settings = { mode: "dark", retries: 3 } as const;
-// { readonly mode: "dark'; readonly retries: 3 }
+// { readonly mode: "dark"; readonly retries: 3 }
 ```
 
 ## Common Types

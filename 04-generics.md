@@ -9,7 +9,7 @@ function identity<T>(value: T): T {
   return value;
 }
 
-const id = identity("item"); // T inferred as "item"
+const id = identity("item"); // T inferred as string
 ```
 
 The type parameter connects the argument and return types. A version returning `unknown` would accept any input but would not preserve which type was supplied.
